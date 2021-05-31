@@ -1,0 +1,31 @@
+<!-- https://aframe.io/docs/1.2.0/components/animation.html -->
+<html>
+    <head>
+      <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+      <a-scene>
+
+        <a-box  position="2 0 -3"
+                animation ="property: position;
+                            to : 1 2 -5;
+                            dur : 2000;
+                            loop : true;
+                            delay : 1000;
+                            easing : easeOutQuad;"
+                animation__rotation="property: rotation;
+                                      to: 0 360 0;
+                                      dur : 1000;
+                                      loop: true;"
+                animation__color="property: color;
+                                      from: #ff0000;
+                                      to: #4CC3D9;
+                                      dur : 1000;
+                                      loop: true">
+        </a-box>
+
+        <a-sky color="#4CC3D9"></a-sky>
+        <a-camera position="0 1.6 0"></a-camera>
+      </a-scene>
+    </body>
+</html>
