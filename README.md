@@ -1,8 +1,6 @@
-#
-petit paragraphe
+# petit paragraphe
 
-##
-deuxième paragraphe
+## deuxième paragraphe
 
 ###
 * item1
