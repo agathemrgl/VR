@@ -5,6 +5,6 @@ petit paragraphe
 deuxième paragraphe
 
 ###
-* item 1
-* item 2
+* item1
+* item2
 * item3
