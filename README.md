@@ -1,11 +1,11 @@
 # VR
 
-## test
+## Test
   [demo](https://agathemrgl.github.io/vr/test/demo.html)
 
-## labyrinthe
+## Labyrinthe
   [laby](https://agathemrgl.github.io/vr/labyrinth/labyrinth.html)
-## popup
+## Pop Up
   [pop up](https://agathemrgl.github.io/vr/popup/scantest.html)
 # AR
 
