@@ -9,9 +9,28 @@
       <a-box position="-1 1.6 -3" scale="0.2 0.2 0.2" rotation="0 45 0" color="#4CC3D9"
       animation__rotation="property: rotation;
                               to: 0 360 0;
-                              dur : 1000"></a-box>
-      <a-sphere position="0 1.6 -5" scale="0.25 0.25 0.25" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 1.6 -3" scale="0.25 0.25 0.25" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+                              dur : 1000;
+                              loop: true"></a-box>
+                              
+      <a-sphere position="0 1.6 -5" scale="0.25 0.25 0.25" radius="1.25" color="#EF2D5E"
+      animation__color="property: color;
+                            from: #EF2D5E;
+                            to: #4CC3D9;
+                            dur : 1000;
+                            loop: true"
+      animation__position="property: position;
+                            from: 0 1.6 -5;
+                            to: 0 1.6 0;
+                            dur : 1000;
+                            loop: true"></a-sphere>
+
+      <a-cylinder position="1 1.6 -3" scale="0.25 0.25 0.25" radius="0.5" height="1.5" color="#FFC65D"
+      animation ="property: position;
+                  to : -8 2 -5;
+                  dur : 2000;
+                  loop : true;
+                  delay : 1000;
+                  easing : easeOutQuad;"></a-cylinder>
     </a-scene>
   </body>
 </html>
