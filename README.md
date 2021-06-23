@@ -10,3 +10,4 @@
 # AR
 
 ## augmented reality
+  [flamingo](https://agathemrgl.github.io/vr/augmentedreality/ar_model.html)
